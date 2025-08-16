@@ -1,8 +1,6 @@
 FROM eclipse-temurin:21-jdk
 
-WORKDIR /app
-COPY . /app
-
+WORKDIR /workspaces/queue-load-leveling
 
 COPY . .
 
