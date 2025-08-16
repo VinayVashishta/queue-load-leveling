@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    restart: unless-stopped
+
+  queue-app:
+    build: .
+    depends_on:
+      - ollama
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_API=http://ollama:11434
+
+volumes:
+  ollama-data:
