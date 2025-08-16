@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jdk
+FROM mcr.microsoft.com/devcontainers/java:0-21
 
 WORKDIR /workspaces/queue-load-leveling
 
