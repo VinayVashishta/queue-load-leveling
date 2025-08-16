@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/java:0-21
+FROM mcr.microsoft.com/devcontainers/java:1-21
 
 WORKDIR /workspaces/queue-load-leveling
 
