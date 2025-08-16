@@ -1,0 +1,11 @@
+{
+  "name": "Queue Load Leveling Dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "queue-app",
+  "workspaceFolder": "/app",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [8080, 11434],
+  "remoteUser": "vscode"
+}
