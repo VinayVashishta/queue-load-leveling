@@ -2,7 +2,7 @@
   "name": "Queue Load Leveling Dev",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "queue-app",
-  "workspaceFolder": "/app",
+  "workspaceFolder": "/workspaces/queue-load-leveling",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
