@@ -6,6 +6,5 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "forwardPorts": [8080, 11434],
-  "remoteUser": "vscode"
+  "forwardPorts": [8080, 11434]
 }
